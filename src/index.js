@@ -9,6 +9,9 @@ import { contactLoad } from "./contact"
 //---STYLESHEET---
 const stylesheet = document.querySelector("#stylesheet");
 
+//
+let content = document.querySelector("#content");
+
 //---NAVBAR---
 const navbar = makeNavBar();
 content.appendChild(navbar);
