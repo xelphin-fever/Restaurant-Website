@@ -1,0 +1,58 @@
+:root {
+    --light: #F6E3B9;
+    --beige: #E6D1A6;
+    --dark-beige: #CAA65F;
+    --gold: #CF9034;
+    --red: #DE522A;
+    --light-red: #D36C4D;
+    --green: #5B9665;
+    --light-green: #B8BD74;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Orelega One', cursive;
+}
+body{
+    background-color: var(--beige);
+}
+
+/*NAVBAR*/
+#navbar{
+    opacity: 90%;
+    transition:0.2s all linear;
+}
+#navbar:hover{
+    opacity: 100%;
+}
+#navbar-ul {
+    background-color: var(--beige);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:100%;
+    padding:0 30px;
+}
+  
+li {
+    float: right;
+    padding:20px;
+}
+  
+.nav-links {
+    font-size: 35px;
+    display: block;
+    color: var(--light-red);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav-title{
+    float:left;
+}
+#nav-title a{
+    font-size:45px;
+}

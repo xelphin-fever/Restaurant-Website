@@ -1,0 +1,61 @@
+
+body{
+    background-image: url(../images/pancakes-full.jpeg);
+}
+/*MAIN*/
+#main{
+    position:relative;
+    width:100vw;
+    height:85vh;
+}
+/*TITLE*/
+#main-title{
+    font-size:180px;
+    color: var(--beige);
+    text-shadow: 6px 6px var(--light-red);
+    position: absolute;
+    top:50px;
+    left:50px;
+    width:40%;
+    letter-spacing: 7px;
+}
+.main-title-span{
+    transition: 0.2s all linear;
+    display:inline-block;
+}
+.main-title-span:hover{
+    text-shadow: 9px 9px var(--light-red);
+    transform: scale(1.04) translate(-3px,-3px);
+}
+/*ICONS*/
+#div-img-icons{
+    display:flex;
+    flex-direction: column;
+    height:550px;
+    justify-content: space-between;
+    position:absolute;
+    right:25px;
+    bottom: 0px;
+}
+.main-img-icons{
+    width:160px;
+    height:160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--beige);
+    transition: 0.1s all linear;
+}
+.main-img-icons:hover{
+    border: 0 solid var(--beige);
+    transform: scale(1.08);
+}
+
+#main-sub-title{
+    position:absolute;
+    bottom:0;
+    left: 50px;
+    letter-spacing:2px;
+    color: var(--light-red);
+    text-shadow: 1px 1px var(--light);
+    font-size:25px;
+}
