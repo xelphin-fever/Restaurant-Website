@@ -1,0 +1,93 @@
+:root {
+    --light: #F6E3B9;
+    --beige: #E6D1A6;
+    --dark-beige: #CAA65F;
+    --gold: #CF9034;
+    --red: #DE522A;
+    --light-red: #D36C4D;
+    --green: #5B9665;
+    --light-green: #B8BD74;
+}
+body{
+    background-color: var(--beige);
+}
+
+#main{
+    position: relative;
+    width:100%;
+    height:85vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+/*TITLE*/
+#title{
+    font-size: 70px;
+    color: var(--beige);
+    text-shadow: 6px 6px var(--red);
+    background-color: var(--light-red);
+    letter-spacing: 7px;
+    font-family: 'Satisfy', cursive;
+    padding: 5px 20px;
+    box-shadow: 12px 12px var(--dark-beige);
+}
+
+/*MENU*/
+#menu-div-options{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    padding:30px;
+    justify-content:space-around;
+}
+
+/*MENU BLOCK*/
+.menu-div-block{
+    display:flex;
+    flex-direction:column;
+    width: 500px;
+    background-color: var(--light-red);
+    text-shadow: 6px 6px var(--red);
+    align-items:center;
+    padding: 30px 5px;
+    margin: 30px 0;
+    box-shadow: 12px 12px var(--dark-beige);
+}
+.menu-block-title{
+    font-size: 50px;
+    color: var(--light-green);
+    text-shadow: 4px 4px var(--green);
+    background-color: var(--beige);
+    letter-spacing: 5px;
+    padding: 5px 20px;
+}
+
+
+/*MENU OPTION*/
+.menu-option{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    color: var(--beige);
+    
+}
+.menu-option-img{
+    width:250px;
+}
+.menu-info-title{
+    font-size: 35px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--gold);
+    letter-spacing: 3px;
+    text-shadow: 3px 3px var(--red);
+}
+.menu-info-text{
+    font-size:18px;
+    font-family: 'Montserrat';
+}
+.menu-info-price{
+    font-size:22px;
+}

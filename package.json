@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xelphin-fever/Restaurant-Page.git"
+  },
+  "author": "xelphin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xelphin-fever/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/xelphin-fever/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
